@@ -1,0 +1,80 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.topo{
+    height: 120px;
+    position: relative;
+}
+.topo h1{
+    text-align: center;
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.corpo{
+    position: relative;
+    width: 100%;
+    height: 150px;
+}
+.campos{
+    height: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.campo{
+    float: left;
+    padding: 15px;
+}
+.campo input{
+    margin: 2px;
+    padding: 5px;
+}
+#addUsuario{
+    background-color: whitesmoke;
+    border: 1px solid lightgray;
+    padding: 5px 10px; 
+    position: absolute;
+    bottom: 15%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.tabela{
+    width: 100%;
+    position: relative;
+}
+.tabela table{
+    position: absolute;
+    top: 40px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.tabela table th{
+    text-align: center;
+    width: 156px;
+    height: 25px
+}
+.tabela table td{
+    width: 150px;
+}
+.tabela table td input{
+    border: 0px;
+    padding: 3px;
+}
+.excluir{
+    text-align: center;
+    padding: 0;
+}
+.idade{
+    text-align: center;
+}
+.btnExcluir{
+    background-color: white;
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
